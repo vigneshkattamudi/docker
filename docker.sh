@@ -57,9 +57,8 @@ ln -sf /opt/kubectx/kubectx /usr/local/bin/kubectx
 # -----------------------------
 # k9s installation
 # -----------------------------
+export HOME=/root
 curl -sS https://webinstall.dev/k9s | bash
-
-# Ensure k9s is on PATH for all users
 export PATH="$HOME/.local/bin:$PATH"
 
 # -----------------------------
